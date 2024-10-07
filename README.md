@@ -1,13 +1,13 @@
 # 🎨 İlk React Projem: Ebru Sanatı Galerim! 🌟
 
 ## 📸 Sunum 📸
-![](ebrusanatim.gif)
+![](https://github.com/Fiartaks/29-React-Ebru-Sanati-Eserler/blob/main/ebruSanati/src/images/ebrusanatim.gif)
 
 
 
 ## 📸 Screenshots 📸
 
-![](sanatim.png)
+![](https://github.com/Fiartaks/29-React-Ebru-Sanati-Eserler/blob/main/ebruSanati/src/images/sanatim.png)
 
 
 Ebru sanatına olan tutkumla hazırladığım ilk React projemi sizlerle paylaşmanın heyecanını yaşıyorum! 🌊🖌️ Bu projede, kendi ellerimle yarattığım benzersiz ebru eserlerini sergiliyorum. JavaScript’in sunduğu React kütüphanesi ile projemi componentlere ayırarak uygun CSSler ile süsledim. Ortaya çıkan eseri sizlere sunmaktan mutluluk duyuyorum. Her proje benim için bir sanat eseri; yeterli miktarda CSS kullanmak, bu eseri değerli kılan bir hazine gibidir!
