@@ -1,4 +1,4 @@
-# 🎨 İlk React Projem: Ebru Sanatı ESERLERİM! 🌟
+# 🎨 İlk React Projem: Ebru Sanatı Eserlerim! 🌟
 
  🌊🖌️ Bu projede, kendi ellerimle yarattığım benzersiz ebru eserlerini sergiliyorum. JavaScript’in sunduğu React kütüphanesi ile projemi componentlere ayırarak uygun CSSler ile süsledim. Ortaya çıkan eseri sizlere sunmaktan mutluluk duyuyorum. Her proje benim için bir sanat eseri; yeterli miktarda CSS kullanmak, bu eseri değerli kılan bir hazine gibidir!
 
