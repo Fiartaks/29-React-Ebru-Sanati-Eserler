@@ -1,11 +1,65 @@
-.header{
-    width: 100%;
-    height: 70px;
-    background-image: linear-gradient(to right, #4f9ce8, #d56bb2);}
-.title{
-    font-family: cursive;
-    font-weight: bold;
-    font-size: 25px;
-    color: #fff;
-    padding: 21px 25px;
+.header {
+  width: 100%;
+  height: 80px;
+  background-image: linear-gradient(to right, #4f9ce8, #d56bb2);
+  animation: fadeIn 1s ease-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Marquee'nin dışına taşmasını engeller */
+}
+
+.title {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+  margin: 10px 0;
+  color: inherit; /* Ana renk ayarından gelse diye inherit ayarladı */
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 20s linear infinite;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  word-spacing: 2px; /* Kelimeler arasına 10px boşluk ekler */
+}
+.marquee span::after {
+  content: " Ebru sanatına dair en güzel eserler ve tekniklerle tanışın!    Sanatın büyülü dünyasında ustalık yolculuğuna çıkın!    İstanbul’un büyüleyici atmosferinde, geleneksel ve modern ebru tekniklerini keşfedin!";
+  margin-left: 75px; /* Burada boşluk oluşturuluyor */
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header {
+  animation: fadeIn 1s ease-out;
 }
